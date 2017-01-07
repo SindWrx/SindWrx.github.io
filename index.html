@@ -1,0 +1,157 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="Махметов Адиль">
+	<title>Creative Time</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/unslider.css">
+	<link rel="stylesheet" href="css/unslider-dots.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul class="menu">
+			<li><img src="images/ico-nav.png" alt="Иконка" />
+				<ul class="submenu">
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#team">Team</a></li>
+				</ul>
+			</li>
+			</ul>
+		</nav>
+		<div id="content-header">
+			<h4>STUDIO</h4>
+			<h1>Creative Time</h1>
+			<p><em>Hello, we design mobile &amp; web interfaces <br/> that are simple to use.</em></p>
+			<a href="#"><img id="play" src="images/ico-play.png" alt="Иконка" width="65" height="65" /></a>
+			<div id="header-buttons">
+				<a href="#" id="header-btn-1">HIRE</a>
+				<a href="#" id="header-btn-2">LEARN MORE</a>
+			</div>
+		</div>
+	</header>
+	<content class="clearfix">
+	<div class="main-content clearfix">
+		<article>
+			<img src="images/rocket.png" alt="Ракета" width="300" height="300" />
+			<h3>Get Started Instantly</h3>
+			<p>We'll <em>start</em> your project immediately using
+			unique strategies. Just press start and
+			we’ll do the work for you.</p>
+		</article>
+		<article>
+			<img src="images/comp.png" alt="Компьютер" width="300" height="300" />
+			<h3>Design &amp; Development</h3>
+			<p>We can offer you the full packet Design &amp; Development
+	for your project. All of that at a good deal.</p>
+		</article>
+		<article>
+			<img src="images/clock.png" alt="Часы" width="300" height="300" />
+			<h3>Always On Time</h3>
+			<p>We know your time is important, so we don’t
+			waste it. All you have to do is set a deadline
+			and we’ll respect it.</p>
+		</article>
+	</div>
+	<h2 id="projects">Here Are Some of Our Projects</h2>
+		<div class="my-slider">
+		<ul>
+			<li><img src="images/slide-1.png" alt="" /></li>
+			<li><img src="images/slider-2.png" alt="" /></li>
+			<li><img src="images/slider-3.png" alt="" /></li>
+		</ul>
+		</div>
+		<div class="banner-1 clearfix">
+			<div class="banner-text">
+				<p>Do you want a new design for your product?</p>
+				<p>We are ready to improve your app's interface.</p>
+			</div>
+			<div class="banner-button">
+				<span><a href="#">Start a project</a></span>
+			</div>
+		</div>
+		
+		<div class="MeetOurTeam clearfix">
+			<h4 id="team">Meet Our Team</h4>
+			<div class="worker">
+				<img src="images/profile-photo-1.png" alt="Фотография" class="photo" />
+				<p>Johnathan Kurten <br />
+				<span>Founder</span></p>
+			</div>
+			<div class="worker">
+				<img src="images/profile-photo-2.png" alt="Фотография" class="photo" />
+				<p>Chartie Waite <br />
+				<span>UI &amp; UX Creative Director</span></p>
+			</div>
+			<div class="worker">
+				<img src="images/profile-photo-3.png" alt="Фотография" class="photo" />
+				<p>Kelly Wirht <br />
+				<span>Engineer</span></p>
+			</div>
+			<div class="worker">
+				<img src="images/profile-photo-4.png" alt="Фотография" class="photo" />
+				<p>Frantisek Krivda <br />
+				<span>Designer</span></p>
+			</div>
+			<div class="worker">
+				<img src="images/profile-photo-5.png" alt="Фотография" class="photo" />
+				<p>Mihail Serban <br />
+				<span>Buisness Development</span></p>
+			</div>
+		</div>
+		
+		<div class="banner-2 clearfix">
+			<div class="banner-text">
+				<p>Now Hiring</p>
+				<p>Creative Time is searching for new talents to join in Seattle, WA</p>
+			</div>
+			<div class="banner-button">
+				<span><a href="#">Join Our Team</a></span>
+			</div>
+		</div>
+	</content>
+	
+	<footer>
+		<article>
+			<h5>Learn More</h5>
+			<ul>
+			<li><a href="#">How Our Studio Works</a></li>
+			<li><a href="#">Pricing</a></li>
+			<li><a href="#">Freebies</a></li>
+			<li><a href="#">Availabity</a></li>
+			</ul>
+		</article>
+		<article>
+			<h5>About</h5>
+			<ul>
+			<li><a href="#">About Creative Time</a></li>
+			<li><a href="#">Jobs</a> <a id="span" href="#">We're hiring!</a></li>
+			</ul>
+		</article>
+		<article>
+			<h5>Contact</h5>
+			<ul>
+			<li><a href="#">Email : time@creative.com</a></li>
+			<li><a href="#">Phone : 646 336 3256</a></li>
+			</ul>
+		</article>
+		<article>
+			<h4>Creative Time</h4>
+			<p>&copy;2014 Copyright Creative Time</p>
+		</article>
+		<p id="made">Made <em>with</em> love in Romania</p>
+	</footer>
+	
+	<script src="jquery-3.1.1.js"></script>
+	<script src="unslider.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$('.my-slider').unslider({
+				autoplay: true,
+			});
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,186 @@
+*{
+	margin: 0; padding: 0;
+}
+body{
+	background: url('../images/background-header.png') no-repeat; background-size: contain;
+}
+.clearfix{
+	display: table;
+	content: "";
+	clear: both;
+}
+
+/* ========================================================== Заголовок ================================================================= */
+
+header{
+	 height: 37em; color: white;
+}
+	header ul.menu{
+		position: absolute; top: 2em; left: 2em; list-style-type: none;
+	}
+	header ul.submenu{
+		background: green; list-style-type: none; position: relative; left: -1.6em; display: none; 
+	}
+	header ul.menu > li:hover > ul.submenu{
+		display: inline; 
+	}
+	header ul.menu > li:hover > ul.submenu>li{
+		background-color: #fff; padding: 0.7em; font-weight: 600; margin-top: 1em; text-align: center; border-radius: 10px; 
+	} 
+	header ul.menu > li:hover > ul.submenu>li:hover{
+		background-color: rgb(255,242,0);
+	}
+	header a{
+		text-decoration: none; color: black; 
+	}
+	header #content-header{
+		margin-top: 7em; text-align: center;
+	}
+	header h4{
+		font-family: 'Helvetica LT Std'; text-transform: uppercase; font-weight: bold; font-size: 1.75em; margin-bottom: -0.5em;
+	}
+	header h1{
+		font-size: 7.8em; text-transform: uppercase; font-family: 'Source Sans Pro', sans-serif; font-weight: 900;
+	}
+	header p{
+		font-size: 2em; font-family:  'Freight Text Book'; font-style: italic;
+	}
+	header #play{
+		margin-top: 3em;
+	}
+	header #header-buttons{
+		width: 25%; margin: 0 auto; margin-top: 3em;
+	}
+	header #header-btn-1, header #header-btn-2{
+		padding: 0.9em 0; background: #fff; font-size: 0.9em; text-transform: uppercase; width: 48%; box-sizing: border-box; display: block;
+		font-weight: 600; border-radius: 4px; text-decoration: none; font-family: 'Source Sans Pro'; color: #363c4e;
+	}
+	#header-btn-1{
+		float: left;
+	}
+	#header-btn-2{
+		margin-left: 52%;
+	}
+	header #header-btn-1:hover, header #header-btn-2:hover{
+		background: #fff200;
+	}
+/* ====================================================================================================================================== */
+
+/* ========================================================== Область контента ========================================================== */
+content{
+	color: #363c4e;
+}
+	
+	content article{
+		width: 30%; float: left; text-align: center; margin: 8em 1.5% 0 1.5%; 
+	}
+	content h3{
+		margin-top: 2.5em; font-weight: normal; color: #363c4e; font-size: 1.5em;
+	}
+	content article p{
+		font-size: 1em; margin-top: 1.5em; color: #363c4e; font-family: 'Helvetica LT Std';
+	}
+	article em{
+		color: crimson;
+	}
+	content h2{
+		text-align: center; color: #1378cc; margin-top: 1.5em; font-size: 3em; font-weight: normal;
+	}
+	content .my-slider{
+		margin-top: 4em;
+	}
+	content .my-slider img{
+		width: 60%;
+	}
+	.banner-1{
+		background: url('../images/background-banner.png') no-repeat;  width: 100%; padding: 4em; box-sizing: border-box; 
+	}
+	.banner-text{
+		width: 70%; float: left; vertical-align: middle; color: #fff; padding-left: 6em; box-sizing: border-box;
+	}
+	.banner-text p:first-child{
+		font-size: 2.5em;
+	}
+	.banner-text p:last-child{
+		font-size: 1.1em;
+	}
+	.banner-button{
+		width: 30%; float: right; text-align: center; margin-top: 1.4em;
+	}
+	.banner-1 span{
+		margin: 0 auto;
+	}
+	.banner-button a{
+		background: #fff; text-decoration: none; font-family: 'Helevetica'; color: #363c4e;
+		border-radius: 4px; text-transform: uppercase; padding: 0.9em 3em; text-align: center; font-size: 1em; font-weight: 600;
+	}
+	.banner-button a:hover{
+		background: rgb(255,242,0);
+	}
+	.MeetOurTeam{
+		padding: 4em; width: 100%; box-sizing: border-box;
+	}
+	.MeetOurTeam h4{
+		font-size: 2em; margin-left: 2em; font-weight: 600;
+	}
+	.worker {
+		width: 20%; float: left; text-align: center; margin-top: 3em; 
+	}
+	.worker img{
+		width: 120px;
+	}
+	.worker p{
+		font-weight: 600; margin-top: 1em; 
+	}
+	.worker p span{
+		color: #f7857f;
+	}
+	.banner-2{
+		background: url('../images/background-last-banner.png') no-repeat;  width: 100%; padding: 4em; box-sizing: border-box; background-size: cover;
+	}
+	.banner-2 .banner-text p:first-child {
+		text-transform: uppercase; font-weight: 600;
+	}
+/* ====================================================================================================================================== */
+
+/* ========================================= Стрелочки и прочие манипуляций со стилями слайдера ========================================= */
+
+.arr{ margin-top: -18em; width: 85px; }
+#arrleft{ margin-left: 8em; }
+#arright{ margin-right: 8em; }
+.unslider {	text-align: center; }
+
+/* ====================================================================================================================================== */
+
+/* ============================================================= Футер ================================================================== */
+footer{
+	background-image: url('../images/background-footer.png'); background-size: cover; width: 100%; padding: 7em 7em 3em 7em; box-sizing: border-box;
+}
+footer article{ 
+	width: 25%; float: left; 
+}
+footer h5{
+	font-size: 1.2em; color: white; font-weight: 600; text-transform: uppercase;
+}
+footer h4{
+	font-size: 1.5em; color: white; font-weight: 900; text-transform: uppercase; padding: 0.4em 0.4em 0.4em 0; text-align: right;
+}
+footer article p{
+	padding: 0.4em 0.4em 0.4em 0; color: darkgray; text-align: right;
+}
+footer ul{
+	list-style-type: none; 
+}
+footer ul li {
+	padding: 0.25em 0.25em 0.25em 0;
+}
+footer ul li a{
+	text-decoration: none; color: darkgray;
+}
+footer #span{
+	background: #fff200; border-radius: 2em; padding: 0.5em; font-size: 0.6em; letter-spacing: 0.1em; margin-left: 1em; color: black;
+}
+#made{
+	color: darkgray; text-align: center; margin-top: 12em;
+}
+/* ====================================================================================================================================== */
